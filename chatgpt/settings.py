@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-ALLOWED_HOSTS = os.getenv('RENDER_EXTERNAL_HOSTNAME', '').split(',')
+ALLOWED_HOSTS = os.getenv('RENDER_EXTERNAL_HOSTNAME', 'localhost').split(',')
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
