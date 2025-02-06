@@ -9,3 +9,4 @@ SpeechRecognition==3.14.1
 faiss-cpu==1.10.0
 python-dotenv==1.0.1
 gunicorn==23.0.0
+WhiteNoise==6.8.2
