@@ -8,3 +8,4 @@ pydub==0.25.1
 SpeechRecognition==3.14.1
 faiss-cpu==1.10.0
 python-dotenv==1.0.1
+gunicorn==23.0.0
