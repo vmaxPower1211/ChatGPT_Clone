@@ -1,9 +1,9 @@
-Django==4.2.5
-openai==0.28.0
+Django==4.2.0
+openai==1.61.1
 langchain==0.0.202
 PyPDF==5.2.0
 pydub==0.25.1
-SpeechRecognition==3.8.1
-faiss-cpu==1.7.3
-numpy==1.24.2
+SpeechRecognition==3.14.1
+faiss-cpu==1.10.0
+numpy==2.0.2
 python-dotenv==1.0.0
